@@ -136,3 +136,48 @@ header {
 .cajaDeIconosResponsive {
   display: none;
 }
+@media only screen and (max-width: 767px) {
+  .cajaDeIconosResponsive {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+  .logoResponsive {
+    display: block;
+    float: right;
+  }
+  nav {
+    float: left;
+  }
+  .activarNav {
+    background-color: #16a085;
+    width: 80%;
+    height: 1000px;
+  }
+
+  .nav {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: none;
+  }
+  .activarBotones {
+    display: block;
+  }
+  .bt {
+    display: block;
+    float: none;
+    margin-right: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #iconoMenuResposive {
+    display: block;
+    float: left;
+  }
+}
