@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  width: 100%;
+  height:700px;
+  background-color: #fbf9f4;
+}
+
+.Back{
+	text-decoration: none;
+}
+
+.bck img{
+	transition: all 0.5s;
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+}
+
+.bck img:hover{
+  transform: scale(1.10);
+}
+
+.formulario{
+    width: 300px;
+    margin: auto;
+    height: 425px;
+    margin-top:40px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
+.inicioimg{
+    height: 100px;
+    width: 115px;
+    margin-left: 90px;
+}
+
+.In{
+    color:#53777d;
+    display: block;
+   font-size:25px;
+margin-left: 120px;
+font-family: 'Tajawal', sans-serif;
+    margin-top: 30px;
+}
+#user{
+background-color:#fbf9f4;
+    display: block;
+    width: 240px;
+    height: 34px;
+  font-size: 15px;
+   margin-left: 27px;
+font-family: 'Tajawal', sans-serif;
+     margin-top: 20px;
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+#contra{
+background-color: #fbf9f4;
+    display: block;
+    width: 240px;
+    height: 34px;
+    border-style: none;
+   margin-left: 27px;
+font-family: 'arial';
+     margin-top: 20px;
+    border-bottom: 1px solid black;
+
+}
+#enviar{
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-right: 32px;
+  font-family: 'Tajawal', sans-serif;
+    float: right;
+    margin-top: 20px;
+    border-radius: 3px;
+    border-style: 0px;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+}
+
+
+#cl{
+font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    color: #53777d;
+    padding-left: 1.9em;
+    position: relative;
+
+}
+
+#cl:before{
+    font-size:20px;
+    background:white;
+   content:'';
+    border: 3px solid #53777d;
+    border-radius:1px;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    left: 0;
+
+}
+
+
+#cuenta{
+font-family: 'Tajawal', sans-serif;
+    color: black;
+    font-size: 15px;
+    float: left;
+    margin-top: 25px;
+    margin-left:155px;
+
+}
+.a{
+    text-decoration: none;
+    color:black;
+    margin-left: 60px;
+}
+
+#uno{
+color: gray;
+font-family: 'Tajawal', sans-serif;
+font-size: 15px;
+
+}
+
+#dos{
+color: gray;
+font-family: 'Tajawal', sans-serif;
+font-size: 15px;
+
+}
